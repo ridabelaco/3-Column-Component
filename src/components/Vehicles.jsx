@@ -1,4 +1,3 @@
-
 const Vehicles = ({ logo, title, description, bgColor, borderType, borderTypeMobile, hoverColor, textColor }) => {
   return (
     <div className={`lg:w-[250px] lg:h-[400px] w-[300px] h-[375px] ${bgColor} ${borderType} ${borderTypeMobile} md:rounded-none flex-col p-9 space-y-5 relative `} >
